@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>weather web site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+
+<!-- starting of nav-bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Weather web site</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FAQ
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">how to use</a></li>
+            <li><a class="dropdown-item" href="#">why this site</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">anything new</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="">
+        <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <label for="cityInput"> City Name:   </label>
+          <form class="d-inline-flex p-2" action="/"  method="post" >
+              <input id="cityInput" class="form-control me-2" type="text" name="cityName" placeholder="please enter city name" aria-label="Search" autocomplete="off">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- ending of nav-bar -->
+
+
+<!-- starting of front page -->
+<div class="gif-bg" style="text-align:center; background-color:	#181818">
+
+  <img src="https://cdn.dribbble.com/users/28455/screenshots/1389791/media/bd9f8d16f8a3027d4dccb852d44b37d6.gif" alt="" class="center" width="620" height="533">
+</div>
+
+<!-- ending of front page -->
+
+
+
+    <!-- <form class="" action="/" method="post">
+      <label for="cityInput"> City Name : </label>
+      <input id="cityInput" type="text" name="cityName" placeholder="please enter city name">
+      <button type="submit">submit</button>
+    </form> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+  </body>
+</html>
